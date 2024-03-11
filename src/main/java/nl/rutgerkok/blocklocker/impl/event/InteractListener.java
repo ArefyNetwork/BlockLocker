@@ -268,7 +268,7 @@ public final class InteractListener extends EventListener {
         }
     }
 
-    @EventHandler(ignoreCancelled = true)
+    /*@EventHandler(ignoreCancelled = true)
     public void onInventoryMoveItemEvent(InventoryMoveItemEvent event) {
         Block from = getInventoryBlockOrNull(event.getSource());
         if (from != null) {
@@ -284,7 +284,7 @@ public final class InteractListener extends EventListener {
                 return;
             }
         }
-    }
+    }*/
 
     /**
      * Prevents access to containers.
